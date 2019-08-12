@@ -1,10 +1,4 @@
-# To change this license header, choose License Headers in Project Properties.
-# To change this template file, choose Tools | Templates
-# and open the template in the editor.
-
-
 #センター試験数学ⅠＡ　平成１３年度
-#http://www.dennougumi.co.jp/support/exam/h13/13_1.html
 #Basic言語
 =begin
 010 rem 元プログラム
