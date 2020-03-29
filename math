@@ -1,0 +1,19 @@
+#https://onlinemathcontest.com/toppage/contest/contestlist/omc001/omc001-problem/
+
+N = 321
+N.freeze
+wk = 0
+
+for num in 1..N do
+  wk = wk + (10 ** num -1) 
+end
+
+moji = wk.to_s
+keta = moji.split("")
+
+ans = 0
+
+for num in 0..keta.size-1 do
+  ans = ans + keta[num].to_i 
+end
+puts ans
